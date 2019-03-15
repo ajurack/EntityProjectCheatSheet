@@ -3,7 +3,7 @@ Entity Project Cheat Sheet
 
 Create a new MVC project using mvc or dojo
 ```
-dotnet new mvc --no-https -o ProjectName
+dotnet new mvc --no-https -o MyProject
 ```
 
 Import SQL package
@@ -39,7 +39,7 @@ Create a context class for your table
 ```C#
 using Microsoft.EntityFrameworkCore;
 
-namespace YourProject.Models
+namespace MyProject.Models
 {
     public class MyContext : DbContext
     {
@@ -51,7 +51,7 @@ namespace YourProject.Models
 
 Add your models and entity to Startup.cs using statements
 ```C#
-using YourProject.Models;
+using MyProject.Models;
 using Microsoft.EntityFrameworkCore;
 ```
 
@@ -64,7 +64,7 @@ Create a class for your database item and all its columns (don't forget to set d
 ```C#
 using System.ComponentModel.DataAnnotations;
 using System;
-namespace YourProject.Models
+namespace MyProject.Models
 {
     public class MyModel
     {
