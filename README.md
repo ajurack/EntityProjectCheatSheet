@@ -1,7 +1,11 @@
 Entity Project Cheat Sheet
 ==============
+**If you clone this repo and want to run the sample project, make sure to say "YES" when VSCode asks you to install missing assets, and then run a dotnet restore!**
 
-Create a new MVC project using mvc or dojo
+Step-by-step guide:
+--------------
+
+Create a new MVC project using the dotnet mvc or dojo command in the terminal
 ```
 dotnet new mvc --no-https -o MyProject
 ```
