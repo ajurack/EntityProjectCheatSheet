@@ -5,7 +5,7 @@ Entity Project Cheat Sheet
 Step-by-step guide:
 --------------
 
-Create a new MVC project using the dotnet mvc or dojo command in the terminal
+Create a new MVC project using the dotnet mvc or dojo command in the terminal, but **please use Dojo if that's what you have been using, as some students experience issues switching to mvc**
 ```
 dotnet new mvc --no-https -o MyProject
 ```
